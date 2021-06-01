@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    }
+
+
+
+main{
+background-color:  gray;}
+
+header {
+margin-top: 50%;
+padding: 30px;
+background-color: rgb(75, 72, 72);
+width: 100%;
+
+}
+nav ul {
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 50px;
+   
+    text-align: center;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: honeydew;
+}
+nav ul li:first-child {
+width: 20;
+};
+
+
+/*from w3schools*/
+.pica {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+#pics {
+ 
+    width: 33.33%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+#lastOne p{
+text-align: justify;
+width: 50%;
+height: 200px;
+ float:right ; 
+}
+#lastOne img {
+ width: 40%;
+/* float: left; */
+
+background-color: rgb(75, 72, 72); 
+
+}
+#lastOne {
+    width: 70%;
+    margin-left: 300px;
+
+}
+footer{
+    background-color: rgb(75, 72, 72);
+    clear: both;
+    width: 100%;
+    height: 50px;
+}
+/* from stackoverflow */
+.scrollabletextbox {
+    height:300px;
+    margin-top: 50px;
+    width:200px;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 82%;
+    overflow:scroll;
+}
+
